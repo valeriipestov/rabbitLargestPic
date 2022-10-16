@@ -1,0 +1,11 @@
+spring:
+  rabbitmq:
+    listener:
+      simple:
+        default-requeue-rejected: false
+    host: "localhost"
+    port: 5672
+
+nasa:
+  api_key: "DEMO_KEY"
+  base_url: "https://api.nasa.gov/mars-photos/api/v1"
